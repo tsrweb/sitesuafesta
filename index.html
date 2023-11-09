@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>Projeto SuaFesta</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/jumbotron-narrow.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar" data-offset="55">
+
+		<div id="toTop"><img src="img/backtop.png"></div>
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+	  		<div class="container-fluid">
+	  			<div class="navbar-header">
+	    		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+	      		</button>
+	      			<a class="navbar-brand" href="#home" onclick="$('html,body').animate({scrollTop: $('#home').offset().top-50}, 2000);">
+						<img alt="Brand" src="img/logoNav.png" style="margin-top:-15px;"></a>
+							<p class="navbar-text">Projeto SuaFesta</p>
+    			</div>
+
+			<div id="navbar" class="navbar-collapse collapse">
+	          <ul class="nav navbar-nav navbar-right" role="tablist">
+	            <li><a href="#home" onclick="$('html,body').animate({scrollTop: $('#home').offset().top-50}, 2000);">Home</a></li>
+	            <li><a href="#projeto" onclick="$('html,body').animate({scrollTop: $('#projeto').offset().top-50}, 2000);">Projeto</a></li>
+	            <li><a href="#telas" onclick="$('html,body').animate({scrollTop: $('#telas').offset().top-50}, 2000);">Telas</a></li>
+				<li><a href="#equipe" onclick="$('html,body').animate({scrollTop: $('#equipe').offset().top-50}, 2000);">Equipe</a></li>
+				<li><a href="#contato" onclick="$('html,body').animate({scrollTop: $('#contato').offset().top-50}, 2000);">Contato</a></li>
+	          </ul>
+	        </div>
+	      </div>
+	     </div>	  
+	</nav>
+
+<hr class="featurette-divider" id="home">
+
+    <div class="container">
+
+      <div class="jumbotron" style="background-image:url(img/banner.jpg);background-size: 100%;background-repeat: no-repeat;">
+      	<img src="img/logo.png">
+        <p class="lead">O SuaFesta é o site ideal para encontrar tudo que você precisa para fazer aquela festa!</p>
+        <p><a class="btn btn-lg btn-success" href="http://suafesta.tsrweb.com.br" target="_blank" role="button">acesse o nosso site</a></p>
+      </div>
+
+<div id="projeto">
+
+	<div class="container marketing">
+
+      <div class="row">
+        <div class="col-sm-4 col-md-4 col-lg-4">
+          <img class="img-circle" src="img/objetivo.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Objetivo</h2>
+          <p>Oferecer um site as pessoas para facilitar a busca por produtos e serviços relacionado a festas e eventos.</p>
+          <p><button type="button" class="btn btn-default" role="button" data-toggle="modal" data-target="#modalObj">Mais detalhes &raquo;</button></p>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4">
+          <img class="img-circle" src="img/justificativa.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Justificativa</h2>
+          <p>A ideia vem da grande quantidade de pessoas que usam grupos no facebook e whatsapp com esse objetivo.</p>
+          <p><button type="button" class="btn btn-default" role="button" data-toggle="modal" data-target="#modalJust">Mais detalhes &raquo;</button></p>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4">
+          <img class="img-circle" src="img/descricao.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Descrição</h2>
+          <p>Simplicidade, praticidade e facilidade, são os principais fundamentos do SuaFesta.<br />Tudo rápido e interativo.</p>
+          <p><button type="button" class="btn btn-default" role="button" data-toggle="modal" data-target="#modalDesc">Mais detalhes &raquo;</button></p>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4">
+          <img class="img-circle" src="img/escopoProd.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Escopo do Produto</h2>
+          <p>Com um cadastro simples e rápido, você pode utilizar todas as ferramentas que o SuaFesta oferece.</p>
+          <p><button type="button" class="btn btn-default" role="button" data-toggle="modal" data-target="#modalEspProd">Mais detalhes &raquo;</button></p>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4">
+          <img class="img-circle" src="img/canvasLogoG.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>Business Model Canvas</h2>
+          <p>Modelo de Negócio Canvas do Projeto.<br />Disponível também <a href="https://canvanizer.com/canvas/rmUV20FnSTCIa" target="_blank">aqui.</a></p>
+          <p><button type="button" class="btn btn-default" role="button" data-toggle="modal" data-target="#modalCanvas">Mais detalhes &raquo;</button></p>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4">
+          <img class="img-circle" src="img/escopoProj.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Escopo do Projeto</h2>
+          <p>A plataforma SuaFesta foi desenvolvida com as tecnologias mais atuais do merdado.</p>
+          <p><button type="button" class="btn btn-default" role="button" data-toggle="modal" data-target="#modalEspProj">Mais detalhes &raquo;</button></p>
+        </div>
+      </div><!-- /.row -->
+    </div><!-- /container marketing-->
+   </div><!-- /projeto -->
+
+   	<!-- Modal -->
+
+      <!-- Modal Objetivo -->
+<div class="modal fade" id="modalObj" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>	      		
+		<h4 class="modal-title" id="myModalLabel"><img alt="Brand" src="img/objetivoLogo.jpg">  Objetivo</h4>
+      </div>
+      <div class="modal-body">
+        <p>O SuaFesta tem como objetivo possibilitar uma maior interatividade entre clientes e fornecedores que estejam em busca de produtos e serviços relacionado a festas e eventos, oferecendo uma plataforma que permita ao usuário criar um perfil de festa e selecionar os fornecedores de acordo com os serviços e produtos anunciados. Tudo isso de maneira simples e interativa.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Sair</button>
+      </div>
+    </div>
+  </div>
+</div><!-- /Modal Objetivo -->
+
+      <!-- Modal Justificativa -->
+<div class="modal fade" id="modalJust" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel"><img alt="Brand" src="img/justificativaLogo.jpg">  Justificativa</h4>
+      </div>
+      <div class="modal-body">
+        <p>Atualmente na Região Metropolitana do Recife existe um grande quantidade de eventos e festas. Com isso, pessoas tem a necessidade de buscar ofertas, um dos exemplos pesquisados e tido como público em potencial é o grupo do Facebook ‘Desapego Pós-Festas – PE’ que contém hoje cerca de <b>130 mil membros</b>, onde várias pessoas se interagem com o objetivo de comprar, vender ou alugar tudo referente a festa.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Sair</button>
+      </div>
+    </div>
+  </div>
+</div><!-- /Modal Justificativa -->
+
+      <!-- Modal Descrição -->
+<div class="modal fade" id="modalDesc" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel"><img alt="Brand" src="img/descricaoLogo.jpg">Descrição</h4>
+      </div>
+      <div class="modal-body">
+        <p>
+          Com o SuaFesta você cria um perfil de festa, seleciona seus fornecedores e entra em contato para tirar todas as suas dúvidas antes de fechar o negócio. Os fornecedores possuirão um espaço avaliativo, onde o cliente que contratou seus serviços, poderá opinar pelo serviço prestado e avalia-lo.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Sair</button>
+      </div>
+    </div>
+  </div>
+</div><!-- /Modal Descrição -->
+
+      <!-- Modal Escopo Produto -->
+<div class="modal fade" id="modalEspProd" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel"><img alt="Brand" src="img/escopoProdLogo.jpg">Escopo do Produto</h4>
+      </div>
+      <div class="modal-body">
+<h4>Usuário simples.</h4>
+<b>Cadastro:</b><br />
+O usuário pode se cadastrar utilizando apenas seu nome, e-mail, cidade em que reside e telefone para contato.<br />
+<b>Página inicial (Home):</b><br />
+Contém todas as festas criadas pelo usuário, como também o botão para adicionar uma nova festa.<br />
+<b>Criar festa:</b><br />
+O usuário entre com s dados da festa como: nome da festa, aniversariante (se houver) data do evento e endereço, também é possível enviar uma imagem para ficar no perfil da festa.<br />
+<b>Seja um fornecedor:</b><br />
+O usuário pode criar sua página para oferecer seus produtos e serviços para as demais pessoas que utilizam a plataforma.<br />
+<b>Fornecedores:</b><br />
+Contém uma lista com todos os fornecedores cadastrados e com a opção de fazer uma busca por serviços específicos, como: bolos, doces e salgados, filmagem e fotografia e etc.<br />
+<b>Mensagens:</b><br />
+Espaço reservado para contado do cliente com o fornecedor ou do fornecedor para o cliente. Contém as mensagens separadas por título data e hora. O receptor da mensagens é alertado por e-mail quando alguém entra em contato com o mesmo.<br />
+<h4>Fornecedor.</h4>
+<b>Cadastro:</b><br />
+O usuário que deseja ser um fornecedor irá preencher sua página inicial com os campos:
+nome da empresa, descrição dos serviços, endereço, serviços oferecidos e também poderá selecionar uma imagem principal da sua empresa que irá aparecer na listagem dos fornecedores, como também escolher fotos que mostrem produtos ou serviços.
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Sair</button>
+      </div>
+    </div>
+  </div>
+</div><!-- /Modal Escopo Produto -->
+
+	<!-- Modal Canvas -->
+<div class="modal fade" id="modalCanvas" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Business Model Canvas</h4>
+      </div>
+      <div class="modal-body">
+        <img src="img/canvas.png">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Sair</button>
+      </div>
+    </div>
+  </div>
+</div><!-- /Modal Canvas -->
+
+      <!-- Modal Escopo do Projeto -->
+<div class="modal fade" id="modalEspProj" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel"><img alt="Brand" src="img/escopoProjLogo.jpg">  Escopo do Projeto</h4>
+      </div>
+      <div class="modal-body">
+        <p>A plataforma <b>SuaFesta</b> foi toda desenvolvida em linguagens de programação e marcação voltados a WEB, seu back-end construído em <b>PHP, JavaScript e JQuery</b> e seu front-end construído em <b>HTML5, CSS3</b> e o framework <b>Bootstrap</b>, que torna o site responsivo, fazendo com que se encaixe na maioria dos dispositivos: PC, tablets e smartphones.<br />
+        A equipe pretende futuramente desenvolver o aplicativo SuaFesta para <b>Android</b>, facilitando ainda mais o uso da plataforma pelos seus usuários.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Sair</button>
+      </div>
+    </div>
+  </div>
+</div><!-- /Modal Escopo do Projeto -->
+
+<!-- Fim Modal -->
+
+<div id="telas">
+
+<!-- Banner do Telas-->
+      <hr class="featurette-divider" id="telas">
+      	<h2 class="text-center">Telas do Sistema</h2>
+ <!--Carousel-->
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/slideP1.png" alt="...">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/slideP2.png" alt="...">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/slideP3.png" alt="...">
+      <div class="carousel-caption">
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+  <!--Fim Carousel-->
+
+	<br /><p class="text-center"><button type="button" class="btn btn-default btn-lg" role="button" data-toggle="modal" data-target="#telasModal">Mais detalhes</button></p>
+
+</div>
+
+<!-- Modal Telas -->
+<div class="modal fade bs-example-modal-lg" id="telasModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+       <!--Carousel-->
+<div id="carousel-example-generic2" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/slideS1.png" alt="...">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/slideS2.png" alt="...">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/slideS3.png" alt="...">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/slideS4.png" alt="...">
+      <div class="carousel-caption">
+      </div>
+    </div>
+     <div class="item">
+      <img src="img/slideS5.png" alt="...">
+      <div class="carousel-caption">
+      </div>
+    </div>
+     <div class="item">
+      <img src="img/slideS6.png" alt="...">
+      <div class="carousel-caption">
+      </div>
+    </div>
+     <div class="item">
+      <img src="img/slideS7.png" alt="...">
+      <div class="carousel-caption">
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic2" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic2" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div><!--Fim Carousel-->
+
+    </div>
+  </div>
+</div>
+
+<!-- Fim Modal Telas-->
+
+<!-- Fim do Banner do Telas -->
+
+<!-- Equipes -->
+
+<hr class="featurette-divider" id="equipe">
+	<h2 class="text-center">Equipe Ideal Software</h2>
+<div class="container-fluid">
+<div class="row">
+  <div class="col-sm-4 col-md-4 col-lg-4">
+    <div class="thumbnail">
+      <img src="img/augusto.jpg" alt="...">
+      <div class="caption text-center">
+        <h4>Augusto Moraes</h4>
+        <p>Gerente de Projeto</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-4 col-md-4 col-lg-4">
+    <div class="thumbnail">
+      <img src="img/jailson.jpg" alt="...">
+      <div class="caption text-center">
+        <h4>Jailson Lourenço</h4>
+        <p>DBA</p>
+      </div>
+    </div>
+  </div>
+
+    <div class="col-sm-4 col-md-4 col-lg-4">
+    <div class="thumbnail">
+      <img src="img/jean.jpg" alt="...">
+      <div class="caption text-center">
+        <h4>Jean Alves</h4>
+        <p>Designer</p>
+      </div>
+    </div>
+  </div>
+
+      <div class="col-sm-4 col-md-4 col-lg-4">
+    <div class="thumbnail">
+      <img src="img/jomar.jpg" alt="...">
+      <div class="caption text-center">
+        <h4>Jomar Ferreira</h4>
+        <p>Analista de Requisitos</p>
+      </div>
+    </div>
+  </div>
+
+      <div class="col-sm-4 col-md-4 col-lg-4">
+    <div class="thumbnail">
+      <img src="img/romulo.jpg" alt="...">
+      <div class="caption text-center">
+        <h4>Rômulo Nascimento</h4>
+        <p>Analista de Teste</p>
+      </div>
+    </div>
+  </div>
+
+      <div class="col-sm-4 col-md-4 col-lg-4">
+    <div class="thumbnail">
+      <img src="img/tiago.jpg" alt="...">
+      <div class="caption text-center">
+        <h4>Tiago Rodrigues</h4>
+        <p>Desenvolvedor</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div><!-- /Equipe -->
+
+<!-- Contato -->
+
+<hr class="featurette-divider" id="contato">
+
+		<div id="container-fluid">
+			<div class="row">
+				<div class="col-xs-6 col-md-4">
+			  		<img src="img/logoIdeal.jpg" style="margin-top: 60px">
+			  			</div>
+
+			  	<div class="col-xs-12 col-md-8">	
+					<form class="form-inline" method="post" action="enviarMensagem.php" style="margin-left: 55px">
+						<h2 class="media-heading">Contato</h2>
+							<div class="form-group">
+						    	<label for="nome">Nome:</label><br />
+						    	<input type="text" class="form-control" id="nome" name="nome" required>
+						  	</div>
+				 				<div class="form-group">
+				   		 			<label for="email">Email:</label><br />
+				   					<input type="email" class="form-control" id="email" name="email" placeholder="exemplo@exemplo.com" required>
+				  				</div>
+				  			<div class="form-group">
+				    			<label for="msg">Mensagem:</label><br />
+				    			<textarea class="form-control" cols="50" rows="5" id="msg" name="msg" placeholder="Texto..." required></textarea>
+				  			</div><br />
+						<br /><input type="submit" name="enviar" value="Enviar" class="btn btn-primary" />
+					</form>
+			  </div>
+		  </div>
+	  </div><!-- \Contato -->
+			
+	<br /><br />
+
+	<footer class="footer">
+        <p>&copy; 2016 Ideal Software</p>
+      		</footer>
+
+    </div> <!-- /container -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <!-- Script botão voltar ao topo -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(function() {
+		$(window).scroll(function() {
+			if($(this).scrollTop() != 0) {$('#toTop').fadeIn();
+			} else {$('#toTop').fadeOut();}});
+				$('#toTop').click(function() {
+					$('body,html').animate({scrollTop:0},800);
+					});
+				});
+	</script>
+
+  </body>
+</html>
